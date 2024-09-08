@@ -1,2 +1,7 @@
+*.swp
+
+venv/
+
 *.o
 *.exe
+.tags

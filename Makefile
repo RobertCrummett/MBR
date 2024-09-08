@@ -1,8 +1,8 @@
-CXX=g++
+CXX=g++-14
 CXXFLAGS=-g -Wall -Wextra
 
-hull.exe: hull.o
+mbr.exe: mbr.o
 	$(CXX) $(CXXFLAGS) -o $@ $^
 
-hull.o: hull.cpp
+mbr.o: mbr.cpp
 	$(CXX) $(CXXFLAGS) -o $@ -c $<
